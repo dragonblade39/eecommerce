@@ -1,0 +1,68 @@
+/* Dashboard CSS */
+
+/* Dashboard CSS */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Set maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.products-container,
+.approved-products,
+.rejected-products {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.products-container h2,
+.approved-products h2,
+.rejected-products h2 {
+    color: #090909;
+}
+
+.rejected-products h2 {
+    color: #0b0b0b;
+}
+
+.products-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products-list li {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.products-list li p {
+    margin: 5px 0;
+}
+
+.products-list li button {
+    margin-top: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.products-list li button:hover {
+    background-color: #45a049;
+}
+
+.products-list li button.reject {
+    background-color: #f44336;
+}
+
+.products-list li button.reject:hover {
+    background-color: #da190b;
+}
